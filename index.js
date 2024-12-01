@@ -13,7 +13,7 @@ const users = [
 ];
 
 app.get("/", (req, res) => {
-  
+  res.send("server running");
 });
 
 app.listen(3000);
